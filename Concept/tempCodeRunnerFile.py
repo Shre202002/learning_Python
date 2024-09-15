@@ -1,1 +1,10 @@
-sriyansh
+f = open(r"D:\learning_Python\Concept\text.txt") 
+# line1 = f.readline()
+# print(line1)
+# line4 = f.readline()
+# print(line4)
+# line2 = f.readline()
+# print(line2)
+# line3 = f.readline()
+# print(line3, type(line3))
+# f.close
