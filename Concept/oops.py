@@ -14,12 +14,16 @@ class Employee:
     @staticmethod
     def wishes():
         print("Hello Guys Good Morning")
+     
+    # def __init__(self,name , salery , lang):         #------------> Dunder Method Which is automatically called When ever object is created 
+    #     print("I am creating and object ")
+    #     print(f"MY Name is {self.name}.\n My fave language is:{self.lang}\n and my salery is: {self.salary}")
 
-        
+         
         
     
-sriyansh = Employee()
-sriyansh.name = "Sriyansh Gupta"  #-----------------> Object Instant Attribute > Class Attribute
+sriyansh = Employee("Shre", 150000 , "JavaScript")
+# sriyansh.name = "Sriyansh Gupta"  #-----------------> Object Instant Attribute > Class Attribute
 sriyansh.getInfo()
 # Employee.getInfo(sriyansh) -------> Syntatic Suger for the above 
 print(sriyansh.name, sriyansh.lang)
@@ -28,15 +32,15 @@ print(sriyansh.name, sriyansh.lang)
 
 
 
-shre = Employee()
-shre.name ="Shre Shre" #-----------------> Object Instant Attribute > Class Attribute
+# shre = Employee()
+# shre.name ="Shre Shre" #-----------------> Object Instant Attribute > Class Attribute
 # print(shre.name , shre.lang , shre.salary)
 
 
 
 
 
-new_Employee = Employee()
+# new_Employee = Employee()
 # print(new_Employee.name, new_Employee.lang)
 
 
