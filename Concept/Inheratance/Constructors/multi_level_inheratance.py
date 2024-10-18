@@ -26,6 +26,6 @@ class inheritclass(Programmer, Employess ):               #--------------> INHER
 
 a = Programmer()
 a.data()
-c = inheritclass()                                          #-------------> Now Inheret Class can have access to all the methods inside the programer class and Employee class 
+c = inheritclass()                                         #-------------> Now Inheret Class can have access to all the methods inside the programer class and Employee class 
 c.printdata()
 # print(c.company)
