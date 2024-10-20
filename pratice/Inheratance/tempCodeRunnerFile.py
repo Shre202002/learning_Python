@@ -1,1 +1,3 @@
-(self.i *num.i)+(self.j * num.j)
+  @property
+    def changesalary(afterincrement, self):
+        return (afterincrement - self.salary)

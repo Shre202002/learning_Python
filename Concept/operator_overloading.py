@@ -20,7 +20,7 @@ class Number:
         return self.n // num.n
     
     def __str__(self):               #--------> The __str__() method is used to provide a readable string representation of an object, typically meant for human consumption. 
-        return f"The Book {self.author} is written in {self.title}"                             #--------->  It is automatically called when you use the print() function or str() on an object.
+        return f"The Book {self.author} is written in {self.title}"  #--------->  It is automatically called when you use the print() function or str() on an object.
 
     def __len__(self): 
         return len(self.author)   #------> REturns the length of the object/ Parameter which is being recived by the class 
