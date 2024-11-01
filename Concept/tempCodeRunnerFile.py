@@ -1,4 +1,2 @@
-
-print(m*n)
-print(m//n)
-print(m/n)
+while (line := input("Enter something: ")) != "quit":
+#     print(f"You entered: {line}")
