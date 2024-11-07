@@ -45,3 +45,5 @@ print(d1["a"])
 
 Filter_d1 = {key: value for key, value in d1.it() if value > 10}
 print(Filter_d1)
+
+print(d1['k'])
