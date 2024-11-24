@@ -39,3 +39,8 @@ print(l1)
 
 l1.remove(11) # Remove the particular Charatere / Value form the list 
 print(l1)
+
+
+
+
+list1 = [2,10,30,40]

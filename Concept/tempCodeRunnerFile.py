@@ -1,2 +1,1 @@
-while (line := input("Enter something: ")) != "quit":
-#     print(f"You entered: {line}")
+s.update([1,2,3,4])

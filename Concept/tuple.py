@@ -1,6 +1,15 @@
-# Ibn python TUPEL stores the different data together but in unnutable formate i.e the orignal value can't be changed using the TUPLE
+# Ibn python TUPEL stores the different data together but in unnmutable formate i.e the orignal value can't be changed using the TUPLE
+
+# if you have to store the next value in the tupple then add comma else it would be considered as a integer
 
 t1 = (1,2,3,4, "hello" , "Sriyansh", 2)
+t3 = (1,2,4,6,9)
+t2 = sorted(t3)
+t4 = sum(list(t3))
+print(t4)
+# print(t2)
+
+
 
 print(type(t1))
 print(t1)
@@ -21,3 +30,8 @@ a,b,c,d,e,g,h = t1
 print(a,b,g)
 
 print(t1)
+
+
+#submission of elements of tuple 
+#Program that contain the vovvel and conconent character in tupple create the list of vovle from tupple 
+vovel = ("HEllo World")
