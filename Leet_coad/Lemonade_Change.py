@@ -26,45 +26,31 @@
 # # Since not every customer received the correct change, the answer is false.
 
 
-# cus = int(input("Enter the number of Coster "))
-# cash = []
+cus = int(input("Enter the number of Coster "))
+cash = []
 
-# def changes(self, cus[]):
+def changes(self, cus[]):
 
-#     for i in range(len(cus)):
+    for i in range(len(cus)):
 
-#          if(cus[i] == 5):
-#             f += 1
+         if(cus[i] == 5):
+            f += 1
     
-#          elif(cus[1] == 10):
+         elif(cus[1] == 10):
              
-#             if(f == 0): 
-#               return False
-#             else:
-#                 f -=1 
+            if(f == 0): 
+              return False
+            else:
+                f -=1 
         
 
 
 
 
-# for i in range(cus):
-#     c = int(input("Enter the amount payed: "))
-#     cash.append(c)
+for i in range(cus):
+    c = int(input("Enter the amount payed: "))
+    cash.append(c)
 
 
 
 
-
-def create_largest_number(number_list):
-    
-   number_list.sort(reversed = True)
-   sum = " "
-   for e in number_list:
-      sum = sum + str(e)
-
-   return int(sum) 
-    #remove pass and write your logic here
-
-number_list=[23,45,67]
-largest_number= create_largest_number(number_list)
-print(largest_number) 
