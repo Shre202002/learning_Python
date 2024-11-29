@@ -3,19 +3,19 @@
 dict = {}
 
 n = input("Enter name of the Student: ")
-a = int(input("Enter name of the Student: "))
+a = int(input("Enter age of the Student: "))
 dict.update({n:a})
 
 n = input("Enter name of the Student: ")
-a = int(input("Enter name of the Student: "))
+a = int(input("Enter age of the Student: "))
 dict.update({n:a})
 
 n = input("Enter name of the Student: ")
-a = int(input("Enter name of the Student: "))
+a = int(input("Enter age of the Student: "))
 dict.update({n:a})
 
 n = input("Enter name of the Student: ")
-a = int(input("Enter name of the Student: "))
+a = int(input("Enter age of the Student: "))
 dict.update({n:a})
 
 # If same key is entered again then the value got updated 

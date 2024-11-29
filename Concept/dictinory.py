@@ -10,7 +10,7 @@ d1 = {
 
 print(d1, type(d1))
 
-      
+      x~
 # Methods --> Nop Indexing is there In Dict
 print(d1[3])
 
@@ -43,7 +43,16 @@ print(d1["a"])
 
 # TO Filter the values in the dictionary we use Filter Function 
 
-Filter_d1 = {key: value for key, value in d1.it() if value > 10}
-print(Filter_d1)
+# Filter_d1 = {key: value for key, value in d1.it() if value > 10}
+# print(Filter_d1)
 
-print(d1['k'])
+# print(d1['k'])
+
+
+dict = {"name": "john", "age": 23, "country":"India"}
+dict["city"] = 'kanpur'
+dict["age"] = 50        # update the single key value of the dictionary
+print(dict)
+
+dict.update({"name": "Sriyansh", "Roll": 69})
+print(dict)

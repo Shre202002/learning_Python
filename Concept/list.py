@@ -40,7 +40,14 @@ print(l1)
 l1.remove(11) # Remove the particular Charatere / Value form the list 
 print(l1)
 
+# ---------------------------------------------------------------------------------------------
+# Join Concept
 
+l = ['cab','bba' , 'ca']
+print(l)
+j = '_'.join(l)
+print(type(j))
+print(j)
 
 
 list1 = [2,10,30,40]
