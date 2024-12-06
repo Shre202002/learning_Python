@@ -10,7 +10,6 @@ d1 = {
 
 print(d1, type(d1))
 
-      x~
 # Methods --> Nop Indexing is there In Dict
 print(d1[3])
 
@@ -56,3 +55,9 @@ print(dict)
 
 dict.update({"name": "Sriyansh", "Roll": 69})
 print(dict)
+
+sqr= {}
+for i in range (16):
+      sqr.update({i:i*i})
+      sum = sum + sqr.values[i]
+print(sqr)

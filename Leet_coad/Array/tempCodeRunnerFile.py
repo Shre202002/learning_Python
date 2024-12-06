@@ -1,2 +1,1 @@
-
-    for j+i in range(j,len(nums)) :
+''.join(sorted(string))

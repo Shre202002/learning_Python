@@ -40,7 +40,7 @@ def generateMatrix(n):
     return ans
 
 # Example usage
-n =  4
+n =  3
 matrix = generateMatrix(n)
 for row in matrix:
     print(row)
