@@ -1,19 +1,19 @@
 # Slicing In Python- Slicing The character from middle in python 
 
-a = "Hello I am sriyansh"
-print(a[0:3])
+# a = "Hello I am sriyansh"
+# print(a[0:3])
 
-# ADVANCE SLICING- gETTING THE STRING FROM THE MIDDLE OF THE STRING OR bY SKIPING AT PARTICULAR SIQUENCE !
-print(a[0:7:3])
+# # ADVANCE SLICING- gETTING THE STRING FROM THE MIDDLE OF THE STRING OR bY SKIPING AT PARTICULAR SIQUENCE !
+# print(a[0:7:3])
 
-# String Functions 
-# -> len 
-print(len(a)), #To find the length of the string 
-print(a.endswith("nsh"))
-print(a.capitalize())  # Capatalise First letter of the Sentence Or String 
-print(a.rstrip())  # Remove the wide space from the string 
-replace_word = a.replace("Hello" , "Hii") # Change all the occurance of that particular string
-print(replace_word)
+# # String Functions 
+# # -> len 
+# print(len(a)), #To find the length of the string 
+# print(a.endswith("nsh"))
+# print(a.capitalize())  # Capatalise First letter of the Sentence Or String 
+# print(a.rstrip())  # Remove the wide space from the string 
+# replace_word = a.replace("Hello" , "Hii") # Change all the occurance of that particular string
+# print(replace_word)
 
 
 #Write a python program to print the vowels Characters OF STRING !
@@ -35,10 +35,30 @@ l={}
 print(l)
 
 #WAP to check the string is palendrom or nOT:
-p = input("Enter a String For palendrome:")
-n =  (p)
-print(n)
-if n == p:
-    print(f"Haaan {p} aur {n} Hamshakal hai")
+# p = input("Enter a String For palendrome:")
+# n =  (p)
+# print(n)
+# if n == p:
+#     print(f"Haaan {p} aur {n} Hamshakal hai")
+# else:
+#      print(f"Haaan {p} aur {n} Hamshakal NAHI hai")
+
+ist =['a','b','c']
+result = ''.join(list)
+print(result)
+# i = input("Enter a String: ")
+# i = len(i)
+# if(i < 2):
+#     print(f"{i[:3]}{i[len(i)-3:len(i)]}")
+# else:
+#     print('Empty String')
+
+str = input("Enter string :- ")
+if len(str) > 3:
+    if str.endswith('ing'):
+        print(str+'ly')
+    else:
+        print(str+'ing')
 else:
-     print(f"Haaan {p} aur {n} Hamshakal NAHI hai")
+        print(str)
+

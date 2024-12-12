@@ -6,14 +6,18 @@
 # Return true if it is possible to make str2 a subsequence of str1 by performing the operation at most once, and false otherwise.
 
 
-s = "aeb"
-t = "adbec"
+s = "ad"   #------> Sub String Find
+t = "zc"  #------> Parent String
 c=0
 i=0  
 j = 0
+print(len(s))
+print(len(t))
 while i < len(t) and j < len(s):
-    if s[j] == t[i] and j != len(t):
-        i+=1
+    print(chr(ord(t[i])+1))
+
+       
+    if s[j] == t[i] or s[j] == chr(ord(t[i])+1) or t[i] == 'z' and s[j] == 'a':
         j+=1
         c+=1
     i+=1
