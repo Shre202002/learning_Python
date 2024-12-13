@@ -18,4 +18,4 @@ def anagram(s:str,t:str):
         return False
     return True
 
-print(anagram("anagram", "nagaram"))
+print(anagram("banana", "bananb"))
