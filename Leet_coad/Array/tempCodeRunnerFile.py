@@ -1,1 +1,2 @@
-''.join(sorted(string))
+
+    c= c*(i-1)/i
