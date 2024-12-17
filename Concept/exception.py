@@ -47,6 +47,20 @@
 #     print(e)
 
 
+
+
+class salaryNotinRangeError(Exception):
+    pass
+
+try:
+    i = int(input("Enter Your Salary: "))
+    if i<20000 or  i>50000:
+        raise salaryNotinRangeError("Enter Salary out of range...!!")
+except salaryNotinRangeError as e:
+    print(e)
+finally:
+    print('Thanks for entering salary..!')
+
 # Avoid this:
 # try:
 #     num = int("abc")
@@ -55,19 +69,19 @@
 #     pass  # Silently ignores the error
 
 
-def find_sum(value_1,value_2):
-    try:
-        print(value_1+value_3)
-    except NameError:
-        print("Function name error")
-    finally:
-        print("Sum finally")
-try:
-    find_sum(12,13)
-except NameError:
-    print("Invocation name error")
-finally:
-    print("Invocation finally")
+# def find_sum(value_1,value_2):
+#     try:
+#         print(value_1+value_3)
+#     except NameError:
+#         print("Function name error")
+#     finally:
+#         print("Sum finally")
+# try:
+#     find_sum(12,13)
+# except NameError:
+#     print("Invocation name error")
+# finally:
+#     print("Invocation finally")
 
 
 

@@ -6,8 +6,8 @@
 # Return true if it is possible to make str2 a subsequence of str1 by performing the operation at most once, and false otherwise.
 
 
-s = "ad"   #------> Sub String Find
-t = "zc"  #------> Parent String
+s = "az"   #------> Sub String Find
+t = "abcd"  #------> Parent String
 c=0
 i=0  
 j = 0
@@ -27,5 +27,6 @@ if c == len(s):
     print("Yes Sub String")
 else:
     print("Not Sub-String")
+
 
 
