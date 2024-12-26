@@ -1,9 +1,3 @@
-class NegativeNumberError(Exception):
-#     pass
-
-# try:
-#     num = -5
-#     if num < 0:
-#         raise NegativeNumberError("Negative numbers are not allowed.")
-# except NegativeNumberError as e:
-#     print(e)
+r = open(r'D:\learning_Python\Concept\text.txt')
+a = r.split(' ')
+print(len(a))
