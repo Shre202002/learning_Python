@@ -22,7 +22,7 @@ class Employee:
          
         
     
-sriyansh = Employee("Shre", 150000 , "JavaScript")
+sriyansh = Employee()
 # sriyansh.name = "Sriyansh Gupta"  #-----------------> Object Instant Attribute > Class Attribute
 sriyansh.getInfo()
 # Employee.getInfo(sriyansh) -------> Syntatic Suger for the above 
@@ -46,3 +46,21 @@ print(sriyansh.name, sriyansh.lang)
 
 # Self parameter 
 
+class Student():
+    
+    def __init__(self,id,name,collage):
+        self.id= id
+        self.name = name
+        self.collage = collage
+
+    def get_id():
+        print(f"The ID of Student Is{id}")
+    def getOther():
+        print(f"The Name of student is {Student} and collage is {collage}")
+
+s = input("Enter Name: ")
+i = int(input("Enter ID "))
+c =input("Enter COllage Name ")
+s = Student(s,i,c)
+s.get_id
+s.getOther
