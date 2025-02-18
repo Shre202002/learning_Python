@@ -6,6 +6,13 @@ int main()
     int a,b;
     a= 20;
     b =  20;
-    printf("Sum of a and b is : %d\n",a+b);
+    printf("Before swapping: a = %d, b = %d\n", a, b);
+    swapping(&a, &b);
+    printf("After swapping: a = %d, b = %d\n", a, b);
     return 0;
 }
+ void swapping(int *a, int *b){
+     int *temp = *a;
+        *a = *b;
+        *b = temp;
+ }
